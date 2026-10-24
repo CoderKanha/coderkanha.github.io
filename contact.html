@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Kanhiya Hurkat</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<nav class="nav">
+  <a href="index.html" class="logo">KH</a>
+  <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+  <div class="nav-links" id="navLinks">
+    <a href="index.html#about">About</a>
+    <a href="index.html#skills">Skills</a>
+    <a href="index.html#experience">Experience</a>
+    <a href="index.html#projects">Projects</a>
+    <a href="contact.html" class="active">Contact</a>
+  </div>
+</nav>
+
+<header class="contact-hero">
+  <p class="eyebrow">Get in touch</p>
+  <h1>Let's talk</h1>
+  <p class="tagline">Open to Lead / Senior Frontend roles. Based in Surat, Gujarat — open to relocation.</p>
+</header>
+
+<main class="section contact-main">
+  <div class="contact-cards">
+    <a class="contact-card" href="mailto:hkanhiya123@gmail.com?subject=Opportunity%20for%20Kanhiya">
+      <h3>Email</h3>
+      <p>hkanhiya123@gmail.com</p>
+    </a>
+    <a class="contact-card" href="https://wa.me/918866757778?text=Hi%20Kanhiya%2C%20I%27d%20like%20to%20connect%20about%20an%20opportunity." target="_blank" rel="noopener">
+      <h3>WhatsApp</h3>
+      <p>+91 88667 57778</p>
+    </a>
+    <a class="contact-card" href="https://www.linkedin.com/in/kanhiya-h-0b40ba151" target="_blank" rel="noopener">
+      <h3>LinkedIn</h3>
+      <p>in/kanhiya-h-0b40ba151</p>
+    </a>
+    <a class="contact-card" href="https://github.com/CoderKanha" target="_blank" rel="noopener">
+      <h3>GitHub</h3>
+      <p>CoderKanha</p>
+    </a>
+  </div>
+
+  <form id="msgForm" class="msg-form">
+    <h2>Send a quick message</h2>
+    <label>Your name<input type="text" id="fName" required></label>
+    <label>Your email<input type="email" id="fEmail" required></label>
+    <label>Message<textarea id="fMsg" rows="5" required></textarea></label>
+    <button type="submit" class="btn btn-primary">Send via email</button>
+    <p class="form-note">Opens your email app with this pre-filled — nothing is sent from this page directly.</p>
+  </form>
+</main>
+
+<footer class="footer"><p>© 2026 Kanhiya Hurkat</p></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
